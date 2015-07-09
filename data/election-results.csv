@@ -1,4 +1,4 @@
-"state","year","pct_D","pct_R","pct_I","win_D","win_R","win_I"
+"state_abbr","year","pct_D","pct_R","pct_I","win_D","win_R","win_I"
 "AK",1958,59.6083,39.4115,0.980232,1,0,0
 "AK",1962,52.2697,47.7303,0,1,0,NA
 "AK",1966,48.3679,49.997,1.63514,0,1,0

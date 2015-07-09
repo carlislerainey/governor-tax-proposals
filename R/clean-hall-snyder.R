@@ -16,8 +16,13 @@ hs_new <- filter(hs, office == "G")
 # pull out relevant variables
 hs_new <- select(hs_new, state, year, pct_D, pct_R, pct_I, win_D, win_R, win_I)
 
+# rename state to state_abbr
+hs_new <- rename(hs_new, state_abbr = state)
+
 # another quick look
 glimpse(hs_new)
+
+
 
 # write new data
 write_csv(hs_new, "data/election-results.csv")
