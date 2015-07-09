@@ -30,4 +30,4 @@ winters_new <- rename(winters_new, year = fy,
 glimpse(winters_new)
 
 # write new data
-write_csv(winters_new, "data/budget-proposal.csv")
+write_csv(winters_new, "data/budget-proposals.csv")
